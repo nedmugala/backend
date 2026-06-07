@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "My backend project for my react todo app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "server"
+  },
+  "author": "Neddy Mugala",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.17.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
