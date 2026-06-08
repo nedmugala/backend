@@ -81,6 +81,6 @@ app.delete('/api/notes/:id', (request, response)=> {
     response.status(204).end()
 })
 
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 app.listen(PORT)
 console.log(`server running at port http://localhost:${PORT}`)
